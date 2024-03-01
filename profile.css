@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+header img{
+    border-radius: 50%;
+}
+
+.about,
+.education,
+.skills,
+.contact {
+    margin: 20px;
+}
+
+.about h2,
+.education h2,
+.skills h2,
+.contact h2 {
+    color: #007bff;
+}
+
+.skills ul,
+.education ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li,
+.education ul li {
+    padding: 5px 0;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+.contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
